@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/project-ebook/!svn/ver/132/protected/extensions/editMe/vendors/CKEditor
+END
+CHANGES.md
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/project-ebook/!svn/ver/132/protected/extensions/editMe/vendors/CKEditor/CHANGES.md
+END
+ckeditor.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/project-ebook/!svn/ver/132/protected/extensions/editMe/vendors/CKEditor/ckeditor.js
+END
+LICENSE.md
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/project-ebook/!svn/ver/132/protected/extensions/editMe/vendors/CKEditor/LICENSE.md
+END
+config.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/project-ebook/!svn/ver/132/protected/extensions/editMe/vendors/CKEditor/config.js
+END
+styles.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/project-ebook/!svn/ver/132/protected/extensions/editMe/vendors/CKEditor/styles.js
+END
+build-config.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/project-ebook/!svn/ver/132/protected/extensions/editMe/vendors/CKEditor/build-config.js
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/project-ebook/!svn/ver/132/protected/extensions/editMe/vendors/CKEditor/README.md
+END
+contents.css
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/project-ebook/!svn/ver/132/protected/extensions/editMe/vendors/CKEditor/contents.css
+END

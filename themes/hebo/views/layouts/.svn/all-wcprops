@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/project-ebook/!svn/ver/210/themes/hebo/views/layouts
+END
+main.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/project-ebook/!svn/ver/76/themes/hebo/views/layouts/main.php
+END
+tpl_footer.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/project-ebook/!svn/ver/76/themes/hebo/views/layouts/tpl_footer.php
+END
+column1.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/project-ebook/!svn/ver/76/themes/hebo/views/layouts/column1.php
+END
+column2.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/project-ebook/!svn/ver/209/themes/hebo/views/layouts/column2.php
+END
+tpl_header.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/project-ebook/!svn/ver/76/themes/hebo/views/layouts/tpl_header.php
+END
+header.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/project-ebook/!svn/ver/76/themes/hebo/views/layouts/header.php
+END
+tpl_sidebar.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/project-ebook/!svn/ver/172/themes/hebo/views/layouts/tpl_sidebar.php
+END
+column3.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/project-ebook/!svn/ver/210/themes/hebo/views/layouts/column3.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/project-ebook/!svn/ver/76/themes/hebo/views/layouts/index.php
+END
+tpl_navigation.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/project-ebook/!svn/ver/249/themes/hebo/views/layouts/tpl_navigation.php
+END
+navigation.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/project-ebook/!svn/ver/76/themes/hebo/views/layouts/navigation.php
+END

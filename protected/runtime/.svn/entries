@@ -1,0 +1,89 @@
+10
+
+dir
+120
+http://dseplaza.com/svn/project-ebook/protected/runtime
+http://dseplaza.com/svn/project-ebook
+
+
+
+16675-02-06T13:03:48.642739Z
+120
+user1
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f9570ee4-be14-479c-871c-12a6084e0055
+
+CSS
+dir
+
+
+
+add
+
+HTML
+dir
+
+URI
+dir
+
+
+
+add
+
+application.log
+file
+
+
+
+
+7444-03-05T13:19:46.399000Z
+ee79647e57726e9bf41c455047a4fb54
+16675-02-06T13:03:48.642739Z
+120
+user1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+126815
+
+gii-1.1.14
+dir
+
+state.bin
+file
+0
+
+
+add
+

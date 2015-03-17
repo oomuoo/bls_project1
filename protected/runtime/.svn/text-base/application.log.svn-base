@@ -1,0 +1,1447 @@
+2014/01/25 14:58:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii_aum\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii_aum/index.php?r=gii
+---
+2014/01/25 14:59:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii_aum\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii_aum/index.php?r=gii
+---
+2014/01/25 15:00:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii=1".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii=1')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii_aum\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii_aum/index.php?r=gii=1
+---
+2014/01/25 15:00:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii_aum\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii_aum/index.php?r=gii
+---
+2014/01/25 15:02:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii_aum\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii_aum/index.php?r=gii
+---
+2014/01/25 15:03:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii_aum\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii_aum/index.php?r=gii
+---
+2014/01/25 15:03:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii_aum\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii_aum/index.php?r=gii
+---
+2014/01/25 15:03:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii_aum\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii_aum/index.php?r=gii
+---
+2014/01/28 14:01:01 [error] [exception.CException] exception 'CException' with message 'Property "Member.id" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id')
+#1 C:\xampp\htdocs\lbs_project\protected\components\UserIdentity.php(35): CActiveRecord->__get('id')
+#2 C:\xampp\htdocs\lbs_project\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#3 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\xampp\htdocs\lbs_project\protected\controllers\SiteController.php(94): CModel->validate()
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\lbs_project\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/lbs_project/index.php?r=site/login
+HTTP_REFERER=http://localhost/lbs_project/index.php?r=site/login
+---
+2014/01/28 14:02:32 [error] [exception.CException] exception 'CException' with message 'Property "Member.id" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id')
+#1 C:\xampp\htdocs\lbs_project\protected\components\UserIdentity.php(35): CActiveRecord->__get('id')
+#2 C:\xampp\htdocs\lbs_project\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#3 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\xampp\htdocs\lbs_project\protected\controllers\SiteController.php(94): CModel->validate()
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\lbs_project\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/lbs_project/index.php?r=site/login
+HTTP_REFERER=http://localhost/lbs_project/index.php?r=site/login
+---
+2014/01/28 14:05:28 [error] [exception.CException] exception 'CException' with message 'Property "Member.id" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id')
+#1 C:\xampp\htdocs\lbs_project\protected\components\UserIdentity.php(36): CActiveRecord->__get('id')
+#2 C:\xampp\htdocs\lbs_project\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#3 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\xampp\htdocs\lbs_project\protected\controllers\SiteController.php(94): CModel->validate()
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\lbs_project\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/lbs_project/index.php?r=site/login
+HTTP_REFERER=http://localhost/lbs_project/index.php?r=site/login
+---
+2014/01/28 14:06:40 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.first_name" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\base\CModule.php(105): CComponent->__get('first_name')
+#1 C:\xampp\htdocs\lbs_project\protected\views\site\login.php(6): CModule->__get('first_name')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#6 C:\xampp\htdocs\lbs_project\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\lbs_project\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/lbs_project/index.php?r=site/login
+---
+2014/01/28 14:06:42 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.first_name" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\base\CModule.php(105): CComponent->__get('first_name')
+#1 C:\xampp\htdocs\lbs_project\protected\views\site\login.php(6): CModule->__get('first_name')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#6 C:\xampp\htdocs\lbs_project\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\lbs_project\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/lbs_project/index.php?r=site/login
+---
+2014/01/28 14:09:23 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.id_member" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('id_member', 'login-form')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'CActiveForm', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(189): CBaseController->createWidget('CActiveForm', Array)
+#3 C:\xampp\htdocs\lbs_project\protected\views\site\login.php(23): CBaseController->beginWidget('CActiveForm', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#8 C:\xampp\htdocs\lbs_project\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\lbs_project\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/lbs_project/index.php?r=site/login
+---
+2014/01/28 14:09:24 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.id_member" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('id_member', 'login-form')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'CActiveForm', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(189): CBaseController->createWidget('CActiveForm', Array)
+#3 C:\xampp\htdocs\lbs_project\protected\views\site\login.php(23): CBaseController->beginWidget('CActiveForm', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#8 C:\xampp\htdocs\lbs_project\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\lbs_project\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/lbs_project/index.php?r=site/login
+---
+2014/01/28 14:10:10 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.id_member" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('id_member', 'login-form')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'CActiveForm', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(189): CBaseController->createWidget('CActiveForm', Array)
+#3 C:\xampp\htdocs\lbs_project\protected\views\site\login.php(23): CBaseController->beginWidget('CActiveForm', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#8 C:\xampp\htdocs\lbs_project\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\lbs_project\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/lbs_project/index.php?r=site/login
+---
+2014/01/28 14:10:18 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.id_member" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('id_member', 'login-form')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'CActiveForm', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(189): CBaseController->createWidget('CActiveForm', Array)
+#3 C:\xampp\htdocs\lbs_project\protected\views\site\login.php(23): CBaseController->beginWidget('CActiveForm', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#8 C:\xampp\htdocs\lbs_project\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\lbs_project\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/lbs_project/index.php?r=site/login
+---
+2014/01/28 14:10:22 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.id_member" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('id_member', 'login-form')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'CActiveForm', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(189): CBaseController->createWidget('CActiveForm', Array)
+#3 C:\xampp\htdocs\lbs_project\protected\views\site\login.php(23): CBaseController->beginWidget('CActiveForm', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#8 C:\xampp\htdocs\lbs_project\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\lbs_project\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/lbs_project/index.php?r=site/login
+HTTP_REFERER=http://localhost/lbs_project/index.php?
+---
+2014/01/29 08:14:06 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('member/view')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\lbs_project\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/lbs_project/index.php?r=member/view
+HTTP_REFERER=http://localhost/lbs_project/index.php?r=site/login
+---
+2014/01/29 08:14:08 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('member/view')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\lbs_project\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/lbs_project/index.php?r=member/view
+HTTP_REFERER=http://localhost/lbs_project/index.php?r=member/view
+---
+2014/01/29 08:14:10 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('member/view')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\lbs_project\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/lbs_project/index.php?r=member/view
+HTTP_REFERER=http://localhost/lbs_project/index.php?r=member/view
+---
+2014/01/29 08:14:40 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('member/view')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\lbs_project\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/lbs_project/index.php?r=member/view
+HTTP_REFERER=http://localhost/lbs_project/index.php?r=member/view
+---
+2014/01/29 08:24:10 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.member" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\base\CModule.php(105): CComponent->__get('member')
+#1 C:\xampp\htdocs\lbs_project\themes\angrybirds\views\layouts\main.php(32): CModule->__get('member')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\xampp\htdocs\lbs_project\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\lbs_project\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\lbs_project\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/lbs_project/index.php
+---
+2014/01/29 08:41:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "page".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('page')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('member/page')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\lbs_project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/lbs_project/index.php?r=member/page&view=create
+HTTP_REFERER=http://localhost/lbs_project/index.php
+---
+2014/01/29 08:41:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "page".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('page')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('member/page')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\lbs_project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/lbs_project/index.php?r=member/page&view=create
+HTTP_REFERER=http://localhost/lbs_project/index.php
+---
+2014/01/29 08:41:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "page".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('page')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('member/page')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\lbs_project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/lbs_project/index.php?r=member/page&view=create
+HTTP_REFERER=http://localhost/lbs_project/index.php
+---
+2014/01/29 08:46:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "create".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('create')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/create')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\lbs_project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/lbs_project/index.php?r=site/create
+HTTP_REFERER=http://localhost/lbs_project/index.php
+---
+2014/01/29 16:30:27 [error] [exception.CException] exception 'CException' with message 'Property "WebUser.isMember" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CWebUser.php(146): CComponent->__get('isMember')
+#1 C:\xampp\htdocs\lbs_project\themes\angrybirds\views\layouts\main.php(33): CWebUser->__get('isMember')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\xampp\htdocs\lbs_project\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\lbs_project\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\lbs_project\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/lbs_project/index.php
+---
+2014/01/29 16:30:29 [error] [exception.CException] exception 'CException' with message 'Property "WebUser.isMember" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CWebUser.php(146): CComponent->__get('isMember')
+#1 C:\xampp\htdocs\lbs_project\themes\angrybirds\views\layouts\main.php(33): CWebUser->__get('isMember')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\xampp\htdocs\lbs_project\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\lbs_project\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\lbs_project\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/lbs_project/index.php
+---
+2014/01/29 16:32:04 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.member" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\base\CModule.php(105): CComponent->__get('member')
+#1 C:\xampp\htdocs\lbs_project\themes\angrybirds\views\layouts\main.php(33): CModule->__get('member')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\xampp\htdocs\lbs_project\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\lbs_project\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\lbs_project\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/lbs_project/index.php
+---
+2014/01/29 16:32:05 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.member" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\base\CModule.php(105): CComponent->__get('member')
+#1 C:\xampp\htdocs\lbs_project\themes\angrybirds\views\layouts\main.php(33): CModule->__get('member')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\xampp\htdocs\lbs_project\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\lbs_project\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\lbs_project\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/lbs_project/index.php
+---
+2014/01/29 16:32:08 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.member" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\base\CModule.php(105): CComponent->__get('member')
+#1 C:\xampp\htdocs\lbs_project\themes\angrybirds\views\layouts\main.php(33): CModule->__get('member')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\xampp\htdocs\lbs_project\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\lbs_project\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\lbs_project\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/lbs_project/
+---
+2014/01/29 16:32:11 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.member" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\base\CModule.php(105): CComponent->__get('member')
+#1 C:\xampp\htdocs\lbs_project\themes\angrybirds\views\layouts\main.php(33): CModule->__get('member')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\xampp\htdocs\lbs_project\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\lbs_project\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\lbs_project\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/lbs_project/
+---
+2014/01/29 16:32:39 [error] [exception.CException] exception 'CException' with message 'Property "WebUser.isMember" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CWebUser.php(146): CComponent->__get('isMember')
+#1 C:\xampp\htdocs\lbs_project\themes\angrybirds\views\layouts\main.php(33): CWebUser->__get('isMember')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\xampp\htdocs\lbs_project\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\lbs_project\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\lbs_project\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/lbs_project/
+---
+2014/02/03 16:13:06 [error] [exception.CException] exception 'CException' with message 'MemberController cannot find the requested view "create".' in C:\xampp\htdocs\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#1 C:\xampp\htdocs\bls_project1\protected\controllers\MemberController.php(79): CController->render('create', Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): MemberController->actionCreate()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('member/create')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\bls_project1\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/bls_project1/index.php?r=member/create
+HTTP_REFERER=http://localhost/bls_project1/
+---
+2014/02/03 16:41:24 [error] [php] include(alias.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\validators\CValidator.php(186): import()
+#1 C:\xampp\htdocs\yii\framework\base\CModel.php(287): createValidator()
+#2 C:\xampp\htdocs\yii\framework\base\CModel.php(260): Member->createValidators()
+#3 C:\xampp\htdocs\yii\framework\base\CModel.php(304): Member->getValidators()
+#4 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1414): Member->isAttributeRequired()
+#5 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(597): activeLabelEx()
+#6 C:\xampp\htdocs\bls_project1\protected\views\user\create.php(28): CActiveForm->labelEx()
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): UserController->renderInternal()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(869): UserController->renderFile()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(782): UserController->renderPartial()
+#11 C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php(65): UserController->render()
+#12 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionCreate()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(286): UserController->runAction()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UserController->run()
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\bls_project1\index.php(13): CWebApplication->run()
+REQUEST_URI=/bls_project1/index.php?r=user/create
+in C:\xampp\htdocs\bls_project1\protected\views\user\create.php (28)
+in C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php (65)
+in C:\xampp\htdocs\bls_project1\index.php (13)
+2014/02/03 16:41:47 [error] [php] include(alias.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\validators\CValidator.php(186): import()
+#1 C:\xampp\htdocs\yii\framework\base\CModel.php(287): createValidator()
+#2 C:\xampp\htdocs\yii\framework\base\CModel.php(260): Member->createValidators()
+#3 C:\xampp\htdocs\yii\framework\base\CModel.php(304): Member->getValidators()
+#4 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1414): Member->isAttributeRequired()
+#5 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(597): activeLabelEx()
+#6 C:\xampp\htdocs\bls_project1\protected\views\user\create.php(28): CActiveForm->labelEx()
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): UserController->renderInternal()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(869): UserController->renderFile()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(782): UserController->renderPartial()
+#11 C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php(65): UserController->render()
+#12 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionCreate()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(286): UserController->runAction()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UserController->run()
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\bls_project1\index.php(13): CWebApplication->run()
+REQUEST_URI=/bls_project1/index.php?r=user/create
+in C:\xampp\htdocs\bls_project1\protected\views\user\create.php (28)
+in C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php (65)
+in C:\xampp\htdocs\bls_project1\index.php (13)
+2014/02/03 16:45:30 [error] [exception.CException] exception 'CException' with message 'Property "Member.firs_tname" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('firs_tname')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('firs_tname')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(Member), 'firs_tname')
+#3 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(Member), 'firs_tname', Array)
+#4 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(Member), 'firs_tname', Array)
+#5 C:\xampp\htdocs\bls_project1\protected\views\user\create.php(29): CActiveForm->textField(Object(Member), 'firs_tname')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#10 C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php(65): CController->render('create', Array)
+#11 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionCreate()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/create')
+#17 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\bls_project1\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/bls_project1/index.php?r=user/create
+HTTP_REFERER=http://localhost/bls_project1/index.php?r=site/login
+---
+2014/02/03 16:45:31 [error] [exception.CException] exception 'CException' with message 'Property "Member.firs_tname" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('firs_tname')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('firs_tname')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(Member), 'firs_tname')
+#3 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(Member), 'firs_tname', Array)
+#4 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(Member), 'firs_tname', Array)
+#5 C:\xampp\htdocs\bls_project1\protected\views\user\create.php(29): CActiveForm->textField(Object(Member), 'firs_tname')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#10 C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php(65): CController->render('create', Array)
+#11 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionCreate()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/create')
+#17 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\bls_project1\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/bls_project1/index.php?r=user/create
+HTTP_REFERER=http://localhost/bls_project1/index.php?r=site/login
+---
+2014/02/03 16:46:02 [error] [php] include(Geography.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\bls_project1\protected\views\user\create.php(69): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): UserController->renderInternal()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(869): UserController->renderFile()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(782): UserController->renderPartial()
+#5 C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php(65): UserController->render()
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionCreate()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): UserController->runAction()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UserController->run()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\bls_project1\index.php(13): CWebApplication->run()
+REQUEST_URI=/bls_project1/index.php?r=user/create
+in C:\xampp\htdocs\bls_project1\protected\views\user\create.php (69)
+in C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php (65)
+in C:\xampp\htdocs\bls_project1\index.php (13)
+2014/02/03 17:09:19 [error] [exception.CException] exception 'CException' with message 'Property "User.create_date" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('create_date', '2014-02-03 17:0...')
+#1 C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php(32): CActiveRecord->__set('create_date', '2014-02-03 17:0...')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionCreate()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/create')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\bls_project1\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/bls_project1/index.php?r=user/create
+HTTP_REFERER=http://localhost/bls_project1/index.php?r=user/create
+---
+2014/02/03 17:11:11 [error] [exception.CException] exception 'CException' with message 'Property "User.create_date" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('create_date', '2014-02-03 17:1...')
+#1 C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php(32): CActiveRecord->__set('create_date', '2014-02-03 17:1...')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionCreate()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/create')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\bls_project1\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/bls_project1/index.php?r=user/create
+HTTP_REFERER=http://localhost/bls_project1/index.php?r=user/create
+---
+2014/02/03 17:12:16 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`bls_db`.`member`, CONSTRAINT `fk_member_geo` FOREIGN KEY (`geo_id`) REFERENCES `geography` (`id`)). The SQL statement executed was: INSERT INTO `member` (`first_name`, `last_name`, `birthdate`, `address`, `geo_id`, `province_id`, `amphur_id`, `district_id`, `postcode`, `phone`, `email`, `picture`, `alias`, `user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, :yp11, :yp12, :yp13).
+in C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php (52)
+in C:\xampp\htdocs\bls_project1\index.php (13)
+2014/02/03 17:12:16 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`bls_db`.`member`, CONSTRAINT `fk_member_geo` FOREIGN KEY (`geo_id`) REFERENCES `geography` (`id`)). The SQL statement executed was: INSERT INTO `member` (`first_name`, `last_name`, `birthdate`, `address`, `geo_id`, `province_id`, `amphur_id`, `district_id`, `postcode`, `phone`, `email`, `picture`, `alias`, `user_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, :yp11, :yp12, :yp13)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php(52): CActiveRecord->save(false)
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/create')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\bls_project1\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/bls_project1/index.php?r=user/create
+HTTP_REFERER=http://localhost/bls_project1/index.php?r=user/create
+---
+2014/02/03 17:37:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "member/index".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('member/index')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bls_project1\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bls_project1/index.php?r=member/index
+HTTP_REFERER=http://localhost/bls_project1/index.php
+---
+2014/02/03 17:38:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "member/index".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('member/index')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bls_project1\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bls_project1/index.php?r=member/index
+---
+2014/02/03 18:13:19 [error] [exception.CException] exception 'CException' with message 'Property "CJuiDatePicker.user" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('user', Object(Member))
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(UserController), 'zii.widgets.jui...', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.jui...', Array)
+#3 C:\xampp\htdocs\bls_project1\protected\views\user\create.php(57): CBaseController->widget('zii.widgets.jui...', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#8 C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php(65): CController->render('create', Array)
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionCreate()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/create')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\bls_project1\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/bls_project1/index.php?r=user/create
+---
+2014/02/03 18:17:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "book/create".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('book/create')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bls_project1\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bls_project1/index.php?r=book/create
+HTTP_REFERER=http://localhost/bls_project1/index.php?r=user/view&id=2
+---
+2014/02/03 18:17:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "how-to".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('how-to')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('how-to')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/how-to')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\bls_project1\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/bls_project1/index.php?r=site/how-to
+HTTP_REFERER=http://localhost/bls_project1/index.php?r=book/create
+---
+2014/02/04 17:17:28 [error] [php] Undefined index: province_id (C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php:167)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(286): UserController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UserController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\bls_project1\index.php(13): CWebApplication->run()
+REQUEST_URI=/bls_project1/index.php?r=User/Select
+in C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php (167)
+in C:\xampp\htdocs\bls_project1\index.php (13)
+2014/02/04 17:20:09 [error] [php] Undefined index: province_id (C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php:167)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(286): UserController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UserController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\bls_project1\index.php(13): CWebApplication->run()
+REQUEST_URI=/bls_project1/index.php?r=User/Select
+in C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php (167)
+in C:\xampp\htdocs\bls_project1\index.php (13)
+2014/02/04 17:24:42 [error] [php] include(Faculty.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\xampp\htdocs\bls_project1\protected\views\user\create.php(68): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): UserController->renderInternal()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(869): UserController->renderFile()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(782): UserController->renderPartial()
+#5 C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php(66): UserController->render()
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionCreate()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): UserController->runAction()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UserController->run()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\bls_project1\index.php(13): CWebApplication->run()
+REQUEST_URI=/bls_project1/index.php?r=user/create
+in C:\xampp\htdocs\bls_project1\protected\views\user\create.php (68)
+in C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php (66)
+in C:\xampp\htdocs\bls_project1\index.php (13)
+2014/02/04 17:26:17 [error] [php] Undefined index: province_id (C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php:167)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(286): UserController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UserController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\bls_project1\index.php(13): CWebApplication->run()
+REQUEST_URI=/bls_project1/index.php?r=User/Select
+in C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php (167)
+in C:\xampp\htdocs\bls_project1\index.php (13)
+2014/02/04 17:29:17 [error] [php] Undefined index: province_id (C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php:167)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(286): UserController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UserController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\bls_project1\index.php(13): CWebApplication->run()
+REQUEST_URI=/bls_project1/index.php?r=User/Select
+in C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php (167)
+in C:\xampp\htdocs\bls_project1\index.php (13)
+2014/02/04 17:29:20 [error] [php] Undefined index: province_id (C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php:167)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(286): UserController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UserController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\bls_project1\index.php(13): CWebApplication->run()
+REQUEST_URI=/bls_project1/index.php?r=User/Select
+in C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php (167)
+in C:\xampp\htdocs\bls_project1\index.php (13)
+2014/02/04 17:31:45 [error] [php] Undefined index: province_id (C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php:167)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(286): UserController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UserController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\bls_project1\index.php(13): CWebApplication->run()
+REQUEST_URI=/bls_project1/index.php?r=User/Select
+in C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php (167)
+in C:\xampp\htdocs\bls_project1\index.php (13)
+2014/02/04 17:31:49 [error] [php] Undefined index: province_id (C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php:167)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(286): UserController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UserController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\bls_project1\index.php(13): CWebApplication->run()
+REQUEST_URI=/bls_project1/index.php?r=User/Select
+in C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php (167)
+in C:\xampp\htdocs\bls_project1\index.php (13)
+2014/02/04 17:31:51 [error] [php] Undefined index: province_id (C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php:167)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(286): UserController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UserController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\bls_project1\index.php(13): CWebApplication->run()
+REQUEST_URI=/bls_project1/index.php?r=User/Select
+in C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php (167)
+in C:\xampp\htdocs\bls_project1\index.php (13)
+2014/02/04 17:36:31 [error] [php] Undefined index: province_id (C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php:167)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(286): UserController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UserController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\bls_project1\index.php(13): CWebApplication->run()
+REQUEST_URI=/bls_project1/index.php?r=User/Select
+in C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php (167)
+in C:\xampp\htdocs\bls_project1\index.php (13)
+2014/02/04 17:36:37 [error] [php] Undefined index: province_id (C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php:167)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(286): UserController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UserController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\bls_project1\index.php(13): CWebApplication->run()
+REQUEST_URI=/bls_project1/index.php?r=User/Select
+in C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php (167)
+in C:\xampp\htdocs\bls_project1\index.php (13)
+2014/02/04 17:37:37 [error] [php] Undefined index: province_id (C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php:167)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(286): UserController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UserController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\bls_project1\index.php(13): CWebApplication->run()
+REQUEST_URI=/bls_project1/index.php?r=User/Select
+in C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php (167)
+in C:\xampp\htdocs\bls_project1\index.php (13)
+2014/02/04 17:37:42 [error] [php] Undefined index: province_id (C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php:167)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(286): UserController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UserController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\bls_project1\index.php(13): CWebApplication->run()
+REQUEST_URI=/bls_project1/index.php?r=User/Select
+in C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php (167)
+in C:\xampp\htdocs\bls_project1\index.php (13)
+2014/02/04 17:37:51 [error] [php] Undefined index: province_id (C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php:167)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(286): UserController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UserController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\bls_project1\index.php(13): CWebApplication->run()
+REQUEST_URI=/bls_project1/index.php?r=User/Select
+in C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php (167)
+in C:\xampp\htdocs\bls_project1\index.php (13)
+2014/02/04 17:47:26 [error] [php] Undefined index: province_id (C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php:167)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(286): UserController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UserController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\bls_project1\index.php(13): CWebApplication->run()
+REQUEST_URI=/bls_project1/index.php?r=User/Select
+in C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php (167)
+in C:\xampp\htdocs\bls_project1\index.php (13)
+2014/02/04 17:47:29 [error] [php] Undefined index: province_id (C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php:167)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(286): UserController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UserController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\bls_project1\index.php(13): CWebApplication->run()
+REQUEST_URI=/bls_project1/index.php?r=User/Select
+in C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php (167)
+in C:\xampp\htdocs\bls_project1\index.php (13)
+2014/02/04 17:56:42 [error] [php] Undefined index: province_id (C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php:167)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(286): UserController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UserController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\bls_project1\index.php(13): CWebApplication->run()
+REQUEST_URI=/bls_project1/index.php?r=User/changeSelect
+in C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php (167)
+in C:\xampp\htdocs\bls_project1\index.php (13)
+2014/02/04 18:07:00 [error] [php] Undefined index: province_id (C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php:167)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(286): UserController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UserController->run()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\bls_project1\index.php(13): CWebApplication->run()
+REQUEST_URI=/bls_project1/index.php?r=User/changeSelect
+in C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php (167)
+in C:\xampp\htdocs\bls_project1\index.php (13)
+2014/02/05 22:41:18 [error] [exception.CException] exception 'CException' with message 'Property "Member.isRecord" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('isRecord')
+#1 C:\xampp\htdocs\bls_project1\protected\views\user\create.php(139): CActiveRecord->__get('isRecord')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#6 C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php(66): CController->render('create', Array)
+#7 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionCreate()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/create')
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\bls_project1\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/bls_project1/index.php?r=user/create
+---
+2014/02/05 22:53:17 [error] [php] Undefined variable: province (C:\xampp\htdocs\bls_project1\protected\views\user\create.php:83)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): UserController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): UserController->renderPartial()
+#2 C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php(66): UserController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): UserController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UserController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\bls_project1\index.php(13): CWebApplication->run()
+REQUEST_URI=/bls_project1/index.php?r=user/create
+in C:\xampp\htdocs\bls_project1\protected\views\user\create.php (83)
+in C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php (66)
+in C:\xampp\htdocs\bls_project1\index.php (13)
+2014/02/05 22:57:11 [error] [php] include_once(tpl_sidebar.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\bls_project1\themes\hebo\views\layouts\column2.php:23)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): UserController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(784): UserController->renderFile()
+#2 C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php(66): UserController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): UserController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UserController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\bls_project1\index.php(13): CWebApplication->run()
+REQUEST_URI=/bls_project1/index.php?r=user/create
+in C:\xampp\htdocs\bls_project1\themes\hebo\views\layouts\column2.php (23)
+in C:\xampp\htdocs\bls_project1\themes\hebo\views\layouts\column2.php (23)
+in C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php (66)
+2014/02/05 22:57:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "how-to".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('how-to')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('how-to')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/how-to')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\bls_project1\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/bls_project1/index.php?r=site/how-to
+HTTP_REFERER=http://localhost/bls_project1/
+---
+2014/02/05 22:57:43 [error] [php] Undefined variable: model (C:\xampp\htdocs\bls_project1\themes\hebo\views\site\pages\columns.php:17)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\bls_project1\index.php(13): CWebApplication->run()
+REQUEST_URI=/bls_project1/index.php?r=site/page&view=columns
+in C:\xampp\htdocs\bls_project1\themes\hebo\views\site\pages\columns.php (17)
+in C:\xampp\htdocs\bls_project1\index.php (13)
+2014/02/05 22:57:49 [error] [php] include_once(tpl_sidebar.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\bls_project1\themes\hebo\views\layouts\column2.php:23)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): UserController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(784): UserController->renderFile()
+#2 C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php(66): UserController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): UserController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UserController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\bls_project1\index.php(13): CWebApplication->run()
+REQUEST_URI=/bls_project1/index.php?r=user/create
+in C:\xampp\htdocs\bls_project1\themes\hebo\views\layouts\column2.php (23)
+in C:\xampp\htdocs\bls_project1\themes\hebo\views\layouts\column2.php (23)
+in C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php (66)
+2014/02/05 22:58:18 [error] [php] include_once(tpl_sidebar.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\bls_project1\themes\hebo\views\layouts\column2.php:23)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): UserController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(784): UserController->renderFile()
+#2 C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php(66): UserController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): UserController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UserController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\bls_project1\index.php(13): CWebApplication->run()
+REQUEST_URI=/bls_project1/index.php?r=user/create
+in C:\xampp\htdocs\bls_project1\themes\hebo\views\layouts\column2.php (23)
+in C:\xampp\htdocs\bls_project1\themes\hebo\views\layouts\column2.php (23)
+in C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php (66)
+2014/02/05 22:58:20 [error] [php] include_once(tpl_sidebar.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\bls_project1\themes\hebo\views\layouts\column2.php:23)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): UserController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(784): UserController->renderFile()
+#2 C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php(66): UserController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): UserController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UserController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\bls_project1\index.php(13): CWebApplication->run()
+REQUEST_URI=/bls_project1/index.php?r=user/create
+in C:\xampp\htdocs\bls_project1\themes\hebo\views\layouts\column2.php (23)
+in C:\xampp\htdocs\bls_project1\themes\hebo\views\layouts\column2.php (23)
+in C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php (66)
+2014/02/06 11:02:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "book/create".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('book/create')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\bls_project1\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bls_project1/index.php?r=book/create
+HTTP_REFERER=http://localhost/bls_project1/index.php?r=user/view&id=2
+---
+2014/02/06 11:33:10 [error] [php] Undefined variable: member (C:\xampp\htdocs\bls_project1\protected\views\book\create.php:82)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): BookController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): BookController->renderPartial()
+#2 C:\xampp\htdocs\bls_project1\protected\controllers\BookController.php(31): BookController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): BookController->actionCreate()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): BookController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): BookController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): BookController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\bls_project1\index.php(13): CWebApplication->run()
+REQUEST_URI=/bls_project1/index.php?r=book/create
+in C:\xampp\htdocs\bls_project1\protected\views\book\create.php (82)
+in C:\xampp\htdocs\bls_project1\protected\controllers\BookController.php (31)
+in C:\xampp\htdocs\bls_project1\index.php (13)
+2014/02/06 16:14:36 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.:geo_id" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\schema\CDbCriteria.php(160): CComponent->__set(':geo_id', 1)
+#1 C:\xampp\htdocs\yii\framework\db\schema\CDbCommandBuilder.php(585): CDbCriteria->__construct(Array)
+#2 C:\xampp\htdocs\yii\framework\db\schema\CDbCommandBuilder.php(661): CDbCommandBuilder->createCriteria(Array, Array)
+#3 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1535): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), 'geo_id=:geo_id', Array, Array, '`t`.')
+#4 C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php(169): CActiveRecord->findAllByAttributes('geo_id=:geo_id', Array)
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionchangeSelect()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('changeselect')
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('User/changesele...')
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\bls_project1\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/bls_project1/index.php?r=User/changeselect
+HTTP_REFERER=http://localhost/bls_project1/index.php?r=user/create
+---
+2014/02/06 16:14:56 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.:geo_id" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\schema\CDbCriteria.php(160): CComponent->__set(':geo_id', 1)
+#1 C:\xampp\htdocs\yii\framework\db\schema\CDbCommandBuilder.php(585): CDbCriteria->__construct(Array)
+#2 C:\xampp\htdocs\yii\framework\db\schema\CDbCommandBuilder.php(661): CDbCommandBuilder->createCriteria(Array, Array)
+#3 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1535): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), 'geo_id=:geo_id', Array, Array, '`t`.')
+#4 C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php(169): CActiveRecord->findAllByAttributes('geo_id=:geo_id', Array)
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionchangeSelect()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('changeselect')
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('User/changesele...')
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\bls_project1\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/bls_project1/index.php?r=User/changeselect
+HTTP_REFERER=http://localhost/bls_project1/index.php?r=user/create
+---
+2014/02/06 16:19:35 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.:geo_id" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\schema\CDbCriteria.php(160): CComponent->__set(':geo_id', 1)
+#1 C:\xampp\htdocs\yii\framework\db\schema\CDbCommandBuilder.php(585): CDbCriteria->__construct(Array)
+#2 C:\xampp\htdocs\yii\framework\db\schema\CDbCommandBuilder.php(661): CDbCommandBuilder->createCriteria(Array, Array)
+#3 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1535): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), 'geo_id=:geo_id', Array, Array, '`t`.')
+#4 C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php(169): CActiveRecord->findAllByAttributes('geo_id=:geo_id', Array)
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionchangeSelect()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('changeselect')
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('User/changesele...')
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\bls_project1\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/bls_project1/index.php?r=User/changeselect
+HTTP_REFERER=http://localhost/bls_project1/index.php?r=user/create
+---
+2014/02/06 16:19:51 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.:geo_id" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\schema\CDbCriteria.php(160): CComponent->__set(':geo_id', 1)
+#1 C:\xampp\htdocs\yii\framework\db\schema\CDbCommandBuilder.php(585): CDbCriteria->__construct(Array)
+#2 C:\xampp\htdocs\yii\framework\db\schema\CDbCommandBuilder.php(661): CDbCommandBuilder->createCriteria(Array, Array)
+#3 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1535): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), 'geo_id=:geo_id', Array, Array, '`t`.')
+#4 C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php(169): CActiveRecord->findAllByAttributes('geo_id=:geo_id', Array)
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionchangeSelect()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('changeselect')
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('User/changesele...')
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\bls_project1\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/bls_project1/index.php?r=User/changeselect
+HTTP_REFERER=http://localhost/bls_project1/index.php?r=user/create
+---
+2014/02/06 16:21:25 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.:geo_id" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\schema\CDbCriteria.php(160): CComponent->__set(':geo_id', 1)
+#1 C:\xampp\htdocs\yii\framework\db\schema\CDbCommandBuilder.php(585): CDbCriteria->__construct(Array)
+#2 C:\xampp\htdocs\yii\framework\db\schema\CDbCommandBuilder.php(661): CDbCommandBuilder->createCriteria(Array, Array)
+#3 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1535): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), 'geo_id=:geo_id', Array, Array, '`t`.')
+#4 C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php(169): CActiveRecord->findAllByAttributes('geo_id=:geo_id', Array)
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionchangeSelect()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('changeselect')
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('User/changesele...')
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\bls_project1\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/bls_project1/index.php?r=User/changeselect
+HTTP_REFERER=http://localhost/bls_project1/index.php?r=user/create
+---
+2014/02/06 16:29:22 [error] [exception.CException] exception 'CException' with message 'Member and its behaviors do not have a method or closure named "changeSelect".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(227): CComponent->__call('changeSelect', Array)
+#1 C:\xampp\htdocs\bls_project1\protected\views\user\create.php(68): CActiveRecord->__call('changeSelect', Array)
+#2 C:\xampp\htdocs\bls_project1\protected\views\user\create.php(68): Member->changeSelect()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#7 C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php(66): CController->render('create', Array)
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionCreate()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/create')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\bls_project1\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/bls_project1/index.php?r=user/create
+HTTP_REFERER=http://localhost/bls_project1/
+---
+2014/02/06 16:31:02 [error] [exception.CException] exception 'CException' with message 'Member and its behaviors do not have a method or closure named "changeSelect".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(227): CComponent->__call('changeSelect', Array)
+#1 C:\xampp\htdocs\bls_project1\protected\views\user\create.php(68): CActiveRecord->__call('changeSelect', Array)
+#2 C:\xampp\htdocs\bls_project1\protected\views\user\create.php(68): Member->changeSelect()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#7 C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php(66): CController->render('create', Array)
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionCreate()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/create')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\bls_project1\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/bls_project1/index.php?r=user/create
+HTTP_REFERER=http://localhost/bls_project1/
+---
+2014/02/06 16:31:10 [error] [exception.CException] exception 'CException' with message 'Member and its behaviors do not have a method or closure named "changeSelect".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(227): CComponent->__call('changeSelect', Array)
+#1 C:\xampp\htdocs\bls_project1\protected\views\user\create.php(68): CActiveRecord->__call('changeSelect', Array)
+#2 C:\xampp\htdocs\bls_project1\protected\views\user\create.php(68): Member->changeSelect()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#7 C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php(66): CController->render('create', Array)
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionCreate()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/create')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\bls_project1\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/bls_project1/index.php?r=user/create
+HTTP_REFERER=http://localhost/bls_project1/
+---
+2014/02/06 16:38:40 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.:geo_id" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\schema\CDbCriteria.php(160): CComponent->__set(':geo_id', 1)
+#1 C:\xampp\htdocs\yii\framework\db\schema\CDbCommandBuilder.php(585): CDbCriteria->__construct(Array)
+#2 C:\xampp\htdocs\yii\framework\db\schema\CDbCommandBuilder.php(661): CDbCommandBuilder->createCriteria(Array, Array)
+#3 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1535): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), 'geo_id=:geo_id', Array, Array, '`t`.')
+#4 C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php(169): CActiveRecord->findAllByAttributes('geo_id=:geo_id', Array)
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionchangeSelect()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('changeselect')
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('User/changesele...')
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\bls_project1\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/bls_project1/index.php?r=User/changeselect
+HTTP_REFERER=http://localhost/bls_project1/index.php?r=user/create
+---
+2014/02/06 16:41:59 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.:geo_id" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\schema\CDbCriteria.php(160): CComponent->__set(':geo_id', 1)
+#1 C:\xampp\htdocs\yii\framework\db\schema\CDbCommandBuilder.php(585): CDbCriteria->__construct(Array)
+#2 C:\xampp\htdocs\yii\framework\db\schema\CDbCommandBuilder.php(661): CDbCommandBuilder->createCriteria(Array, Array)
+#3 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1535): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), 'geo_id=:geo_id', Array, Array, '`t`.')
+#4 C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php(169): CActiveRecord->findAllByAttributes('geo_id=:geo_id', Array)
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionchangeSelect()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('changeselect')
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('User/changesele...')
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\bls_project1\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/bls_project1/index.php?r=User/changeselect
+HTTP_REFERER=http://localhost/bls_project1/index.php?r=user/create
+---
+2014/02/06 16:43:21 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.geo_id" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\schema\CDbCriteria.php(160): CComponent->__set('geo_id', 1)
+#1 C:\xampp\htdocs\yii\framework\db\schema\CDbCommandBuilder.php(585): CDbCriteria->__construct(Array)
+#2 C:\xampp\htdocs\yii\framework\db\schema\CDbCommandBuilder.php(661): CDbCommandBuilder->createCriteria(Array, Array)
+#3 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(1535): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), 'geo_id=geo_id', Array, Array, '`t`.')
+#4 C:\xampp\htdocs\bls_project1\protected\controllers\UserController.php(169): CActiveRecord->findAllByAttributes('geo_id=geo_id', Array)
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionchangeSelect()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('changeselect')
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('User/changesele...')
+#11 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\bls_project1\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/bls_project1/index.php?r=User/changeselect
+HTTP_REFERER=http://localhost/bls_project1/index.php?r=user/create
+---

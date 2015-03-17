@@ -1,0 +1,35 @@
+10
+
+dir
+0
+http://dseplaza.com/svn/project-ebook/assets/d4ae46a5/plugins/about
+http://dseplaza.com/svn/project-ebook
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f9570ee4-be14-479c-871c-12a6084e0055
+
+dialogs
+dir
+
+
+
+add
+

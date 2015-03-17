@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/project-ebook/!svn/ver/16/protected/tests
+END
+WebTestCase.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/project-ebook/!svn/ver/16/protected/tests/WebTestCase.php
+END
+phpunit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/project-ebook/!svn/ver/16/protected/tests/phpunit.xml
+END
+bootstrap.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/project-ebook/!svn/ver/16/protected/tests/bootstrap.php
+END

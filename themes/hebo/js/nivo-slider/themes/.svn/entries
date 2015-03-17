@@ -1,0 +1,40 @@
+10
+
+dir
+210
+http://dseplaza.com/svn/project-ebook/themes/hebo/js/nivo-slider/themes
+http://dseplaza.com/svn/project-ebook
+
+
+
+3643-02-04T09:27:24.862890Z
+82
+user1
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f9570ee4-be14-479c-871c-12a6084e0055
+
+bar
+dir
+
+dark
+dir
+
+default
+dir
+
+light
+dir
+

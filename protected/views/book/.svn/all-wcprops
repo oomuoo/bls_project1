@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/project-ebook/!svn/ver/152/protected/views/book
+END
+_search.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/project-ebook/!svn/ver/168/protected/views/book/_search.php
+END
+update.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/project-ebook/!svn/ver/253/protected/views/book/update.php
+END
+create.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/project-ebook/!svn/ver/230/protected/views/book/create.php
+END
+admin.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/project-ebook/!svn/ver/155/protected/views/book/admin.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/project-ebook/!svn/ver/253/protected/views/book/index.php
+END
+_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/project-ebook/!svn/ver/253/protected/views/book/_form.php
+END
+_view.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/project-ebook/!svn/ver/154/protected/views/book/_view.php
+END
+view.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/project-ebook/!svn/ver/253/protected/views/book/view.php
+END
